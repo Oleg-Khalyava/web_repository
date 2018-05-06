@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22.04.2018, 16:59:42
+    Author     : hp
+*/
+@media screen and (min-width: 1920px){
+    header {left: calc((100vw - 1920px)/2)}
+    footer {left: calc((100vw - 1920px)/2)}
+}
+@media screen and (max-width:1350px){
+    .margin {margin-top: 160px}
+}
+@media screen and (max-width:450px){
+    .margin {margin-top: 210px}
+}
+@media screen and (max-width: 400px){
+    header {background-size: 100% 100%}
+}

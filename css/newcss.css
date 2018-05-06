@@ -1,0 +1,312 @@
+*{
+font-family:Roboto !important}
+a {text-decoration: none}
+header {
+    flex-basis: 100vw;
+    max-width: 1920px;
+    height: 51.04vw;
+    max-height: 980px;
+    background: gray url(../img/header/back.jpg);
+    background-size: 100% 100%;
+}
+#wrapper_nav {
+    flex-basis:57.3vw;
+    max-width: 1100px;
+    min-width: 900px;
+    margin: 1.05vw
+}
+#wrapper_nav_bag {
+    flex-basis:24.27vw;
+    max-width: 466px;
+    min-width: 466px;
+}
+header nav {
+    width: 390px;}
+#button {display: none}
+header nav ul {
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+header nav>ul h2:hover {cursor: pointer}
+header nav ul ul {
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+}
+header nav a {color: #000}
+/*header slider
+*
+*
+*/
+#wrapper_slider {
+    flex-basis: 97.65vw;
+    max-width: 1865px;
+    min-width: 350px;
+    margin-top: 15.62vw;
+}
+#slider_content  {
+    flex-basis: 525px;
+    height: 8.85vw;
+    max-height: 170px;
+    min-height: 150px;
+}
+header h1 {
+    font-size: 40px;
+    color: #fff;
+    display: none;
+    opacity: 0;
+}
+#slider_content h3 {
+    font-size: 28px;
+    color: #fff;
+}
+#slider_content h3 span {
+    color: yellow;
+}
+#slider_content a{
+    flex-basis: 6.5vw;
+    max-width: 125px;
+    min-width: 100px;
+    height: 2.23vw;
+    max-height: 43px;
+    min-height: 40px;
+    background: #000;
+    opacity: 0.9;
+    border-radius: 10px;
+    color: yellow;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all 0.5s
+}
+#slider_content a:hover {
+    color: #000;
+    background: yellow;
+}
+header>a {margin-top: 14.52vw}
+/* main
+*
+* categories
+*/
+
+main h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:3.9vw;
+}
+
+#categories {
+    flex-basis: 100vw;
+    height: 32.81vw;
+    max-height: 630px;
+    min-height: 320px;
+    background: gray url(../img/main/mountains.jpg);
+    background-size: 100% 100%;
+}
+#categories_content {
+    width: 57.29vw;
+    max-width: 1100px;
+    min-width: 840px;
+    margin-top: 4.2vw;
+}
+.cat_block {
+    flex-basis: 17.96vw;
+    max-width: 345px;
+    min-width: 276px;
+    height: 15.10px;
+    max-height: 290px;
+    min-height: 232px;
+}
+
+
+#cat_1 {
+    background: gray url(../img/main/c1.jpg);
+}
+#cat_2 {
+    background: gray url(../img/main/c2.jpg);
+}
+#cat_3 {
+    background: gray url(../img/main/c3.jpg);
+}
+#categories_content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 0.72vw;
+}
+#categories_content p{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 1.51vw
+}
+.cat_button {
+    color: #fff;
+    flex-basis: 125vw;
+    max-width: 125px;
+    min-width: 110px;
+    height: 2.08vw;
+    max-height: 40px;
+    min-height: 40px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 2.6vw;
+}
+.cat_button:hover {
+    background: rgba(136, 132, 130, 0.5)
+}
+/* блок show_bikes
+*
+*
+*/
+#show_bisycles {
+    flex-basis: 100vw;
+    max-width: 1920px;
+    height: 33.07vw;
+    max-height: 635px;
+    min-height: 470px;
+    background: #fff;
+    overflow-x: hidden;
+}
+#wrapper_bikes {
+    width: 100%;
+    margin-top:6.51vw;
+    position: relative;
+}
+ #wrapper_bikes img {
+     width: 100%;
+     margin-bottom:3.0vw;
+ }
+ #wrapper_bikes h3:first-line {
+     line-height: 30px;
+     font-weight: bold}
+ #wrapper_bikes form {
+      flex-basis: 13.02vw;
+      max-width: 250px;
+      min-width: 160px;      
+ }
+ #wrapper_bikes form a {
+     flex-basis: 4.94vw;
+     max-width: 95px;
+     min-width: 65px    ;
+ }  
+    #wrapper_bikes form select {
+     flex-basis: 7.55vw;
+     max-width: 145px;
+     min-width: 85px;
+     height: 36px;}
+ .bk_size{
+     width: 26.33%;
+     max-width: 500px;
+     margin: 0 3.5%;
+     position: absolute;
+     transition: left 2.0s;
+ } 
+ #bk_1 {left: 0.00%;}
+ #bk_2 {left: 33.33%;}
+ #bk_3 {left: 66.66%;}
+ #bk_4 {left: 100.00%;}
+ #bk_5 {left: 100.00%;}
+/* раздел форма обратной связи
+*
+*
+*/
+#form {
+    flex-basis: 100vw;
+    max-width: 1920px;
+    height: 33.23vw;
+    max-height: 638px;
+    min-height: 490px;
+    background: gray url(../img/main/background_form.jpg);
+    background-size: 100% 100%;
+}
+#wrapper_form {
+    flex-basis: 23.7vw;
+    max-width: 455px;
+    min-width: 410px;
+    height: 25.5vw;
+    max-height: 490px;
+    min-height: 410px;
+    margin-top: 3.9vw;
+}
+#wrapper_form form {
+    flex-basis: 100%;
+    height: 17.96vw;
+    max-height: 345px;
+    min-height: 310px;
+}
+#button_send {flex-basis: 100%}
+#wrapper_form h2 {margin: 0;}
+#wrapper_form form>div {width: 100.00%;}
+#wrapper_form form>div input {width: 47.25%;}
+#wrapper_form form textarea {
+    height: 33%;
+    max-height: 150px;
+    min-height: 100px;
+}
+#wrapper_form form input::placeholder,#wrapper_form form textarea::placeholder {
+    color: #aaaaaa;
+    padding-left: 24px;
+}
+/* footer
+*
+*
+*/
+footer { 
+    flex-basis: 100vw;
+    max-width: 1920px;
+    height: 3.65vw;
+    max-height: 70px;
+    min-height: 60px;
+    background: yellow;
+}
+#wrapper_footer {
+    flex-basis:56.98%;
+    min-width: 330px;
+}
+#wrapper_footer ul {
+    flex-basis: 34.24%;
+    min-width: 320px;
+    font-weight: bold;
+}
+footer a {color: #000;}
+/*classes
+*
+*
+*/
+.nav_1 {
+    background: yellow;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #000;
+    max-height: 480px;
+   
+}
+.nav_2 {
+    background: yellow;
+    color: #000;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    max-height: 180px;
+    transition: max-height 1.0s;
+}
+.slider_vizible{
+    display: block;
+    opacity: 1;
+    
+}
+
+.button_buy_send{
+    color: #fff;
+    height: 36px;
+    border-radius: 5px;
+    background: #b7b7b7;
+}
+.button_buy_send:hover {background: #a5a4a4;}
+.margin {margin: 0 auto;}
+.form_area {
+    width: 100%;
+    height: 36px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}

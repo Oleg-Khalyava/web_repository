@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22.04.2018, 21:03:44
+    Author     : hp
+*/
+
+/*flex
+*
+*
+*/
+.flex_wr_centr_start {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+} 
+.flex_wr_centr_centr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+} 
+.flex_wr_centr_bet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-between;
+} 
+.flex_wr_bet_start {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;  
+}
+.flex_wr_bet_center {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+    align-items: center;
+    align-content: center;  
+}
+.flex_wr_bet_end {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;  
+}
+.flex_wr_ar_center {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+.flex_nwr_ar_center {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+.flex_wr_start_start {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: flex-start;
+   align-content: flex-start;
+}
+.flex_nwr_start_center {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: center;
+   align-content: center;
+}
+.flex_wr_col_end_centr{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+} 
+.flex_wr_col_start_centr{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}

@@ -1,0 +1,135 @@
+*{
+font-family:Roboto !important}
+a {text-decoration: none}
+header {
+    width:100vw;
+    max-width: 1920px;
+    height: 10.41vw;
+    max-height: 200px;
+    min-height: 150px;
+    background: gray url(../img/header/back.jpg);
+    background-size: 100% auto;
+    position: fixed;
+    top: 0px
+    
+}
+#wrapper_nav {
+    flex-basis:57.3vw;
+    max-width: 1100px;
+    min-width: 900px;
+    margin: 1.05vw
+}
+#wrapper_nav_bag {
+    flex-basis:24.27vw;
+    max-width: 466px;
+    min-width: 466px;
+}
+header nav {width: 390px}
+#button {display: none}
+header nav ul {
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+header nav>ul h2:hover {cursor: pointer}
+header nav ul ul {
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+}
+header nav a {color: #000}
+main { 
+    flex-basis: 100vw;
+    max-width: 1920px;
+}
+main h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:3.9vw;
+}
+main img {
+     width: 100%;
+     margin-bottom:3.0vw;
+ }
+ main h3:first-line {
+     line-height: 30px;
+     font-weight: bold}
+ main form {
+      flex-basis: 13.02vw;
+      max-width: 250px;
+      min-width: 160px;      
+ }
+ main form a {
+     flex-basis: 4.94vw;
+     max-width: 95px;
+     min-width: 65px    ;
+ }  
+ main form select {
+     flex-basis: 7.55vw;
+     max-width: 145px;
+     min-width: 85px;
+     height: 36px;}
+ .bk_size{
+     width: 26.33%;
+     max-width: 500px;
+     margin: 0 3.5%;
+     
+ } 
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100vw;
+    max-width: 1920px;
+    height: 3.65vw;
+    max-height: 70px;
+    min-height: 60px;
+    background: yellow;
+}
+#wrapper_footer {
+    flex-basis:56.98%;
+    min-width: 330px;
+}
+#wrapper_footer ul {
+    flex-basis: 34.24%;
+    min-width: 320px;
+    font-weight: bold;
+}
+footer a {color: #000;}
+/*classes
+*
+*
+*/
+.nav_1 {
+    background: yellow;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #000
+}
+.nav_2 {
+    background: yellow;
+    color: #000;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    max-height: 180px;
+    transition: max-height 1.0s;
+}
+.slider_vizible{
+    display: block;
+    opacity: 1;
+}
+
+.button_buy_send{
+    color: #fff;
+    height: 36px;
+    border-radius: 5px;
+    background: #b7b7b7;
+}
+.button_buy_send:hover {background: #a5a4a4;}
+.margin {margin: 10.9vw auto 0;}
+.form_area {
+    width: 100%;
+    height: 36px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
